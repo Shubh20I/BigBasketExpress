@@ -1,0 +1,18 @@
+{
+  "name": "tailwind-advanced-webpage",
+  "version": "1.0.0",
+  "description": "An advanced webpage using Tailwind CSS",
+  "main": "src/index.html",
+  "scripts": {
+    "build": "postcss src/styles/styles.css -o dist/styles.css",
+    "watch": "postcss src/styles/styles.css -o dist/styles.css --watch"
+  },
+  "dependencies": {
+    "tailwindcss": "^2.2.19",
+    "autoprefixer": "^10.4.2",
+    "postcss": "^8.4.5"
+  },
+  "devDependencies": {},
+  "author": "",
+  "license": "ISC"
+}
